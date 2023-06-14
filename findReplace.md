@@ -1,0 +1,1 @@
+Use the String.find() and String.replace() methods for this purpose. To only check whether a substring is present in a string, use the in operator (e.g. if "hello" in "hello world" will evaluate to true).
