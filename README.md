@@ -13,3 +13,6 @@
 
 HTTP request:  
 https://github.com/lucianowayand/Godot/tree/master  
+
+Create first env 3d  
+https://www.youtube.com/watch?v=jN_f9i_bAyU
