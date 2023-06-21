@@ -1,3 +1,4 @@
+```
 func get_all_children(in_node,arr:=[]):  
 arr.push_back(in_node)    
 for child in in_node.get_children():  
@@ -13,3 +14,4 @@ var all_children = get_all_children(the_node)
 
 for _i in self.get_children():    
     print(_i)     
+```
