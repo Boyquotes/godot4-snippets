@@ -1,8 +1,6 @@
 extends Spatial
 
-# Will contain all of the children of the root scene
 var children : Array
-# Can be anything you want
 var bits = [1, 5, 6] # For the Collision bit layers
 
 func _ready():
