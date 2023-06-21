@@ -1,9 +1,11 @@
 # Fruit properties
+```
 const COLOR := { RED = "red", YELLOW = "yellow", YELLOW_ORANGE = "yellow orange" }
 const SHAPE := { ROUND = "round", CURVED = "curved" }
 const TEXTURE := { HARD = "hard", SOFT = "soft" }
-
+```
 # Fruits
+```
 const fruits: Dictionary = {
     APPLE = {
         COLOR = COLOR.RED,
@@ -33,7 +35,7 @@ func _ready() -> void:
         var property = fruits[fruit]
         if property.SHAPE == SHAPE.ROUND:
             prints(fruit, property.COLOR, property.SHAPE, property.TEXTURE)
-
+```
 # ----- Output -----
 # Color of banana is: yellow
 # APPLE red round hard
