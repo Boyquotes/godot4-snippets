@@ -1,4 +1,4 @@
-``
+```
 extends Spatial
 
 var children : Array
@@ -24,4 +24,4 @@ func _ready():
 				for i in range(0, bits.size()):
 					child.set_collision_layer_bit(bits[i], true)
 					child.set_collision_mask_bit(bits[i], true)
-``
+```
