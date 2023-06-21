@@ -1,3 +1,4 @@
+```
 func findByClass(node: Node, className : String, result : Array) -> void:   
   if node.is_class(className) :   
     result.push_back(node)    
@@ -9,3 +10,4 @@ func test() -> void:
   var res = []    
   findByClass(self, "Control", res)   
   print(res)     
+```
